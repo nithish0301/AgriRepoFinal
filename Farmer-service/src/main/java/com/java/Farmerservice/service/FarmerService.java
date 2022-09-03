@@ -41,7 +41,7 @@ public class FarmerService {
 
 	public String deleteFarmer(String farmerid) {
 		farmerrepo.deleteById(farmerid);
-		return farmerid+" was deleted successfully";
+		return farmerid+" is deleted successfully";
 	}
 	
 	public Farmer getLogin(String farmerEmail,String farmerPassword)
